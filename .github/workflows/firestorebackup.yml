@@ -5,8 +5,8 @@ on:
     - cron:  '*/5 * * * *'
 
 env:
-  PROJECT_ID: web-form-f50fd
-  BUCKET: gs://web-form-f50fd.appspot.com
+  PROJECT_ID: 'web-form-f50fd'
+  BUCKET: 'gs://web-form-f50fd.appspot.com'
   
 jobs:
   backup:
